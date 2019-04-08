@@ -5,7 +5,7 @@ import Router from 'vue-router'
 
 import homeRouter from './home'
 import categoryRoute from './category'
-import cartRoute from './home'
+import cartRoute from './cart'
 import purchaseRouter from './purchase'
 import mineRoute from './mine'
 

@@ -1,18 +1,20 @@
 <template>
   <div class="home page">
     <app-header></app-header>
-    <h1>首页</h1>
+    <home-center/>
   </div>
 </template>
 
 <script>
 import Header from "./children/home-header";
+import Center from "./children/home-center";
 export default {
   components: {
-    [Header.name]: Header
+    [Header.name]: Header,
+    [Center.name]: Center
   }
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 </style>
