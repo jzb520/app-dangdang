@@ -1,0 +1,359 @@
+{
+    "errorCode": 0,
+    "content": {
+        "banner": [
+            {
+                "link": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=174876",
+                "img": "http:\/\/img63.ddimg.cn\/ddreader\/1111\/lixiangguo886-315.jpg"
+            }
+        ],
+        "mini_banner": {
+            "pits_num": 1,
+            "content": [
+                {
+                    "item_type": 1,
+                    "link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149247",
+                    "promo_title": "\u8fdb\u5165\u542c\u4e66\u9986",
+                    "promo_text": "\u7528\u8033\u6735\u4e08\u91cf\u4e16\u754c",
+                    "img_url": ""
+                }
+            ]
+        },
+        "title": "\u542c\u4e66",
+        "page_id": "712636",
+        "pile": [
+            {
+                "pile_name": "-1",
+                "pile_link_url": "javascript:void(0);",
+                "group": [
+                    {
+                        "group_name": "\u542c\u4e66\u699c\u5355",
+                        "group_link_url": "",
+                        "style_type": "1",
+                        "detail": [
+                            {
+                                "title": "\u65e5\u699c",
+                                "link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149177",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u5468\u699c",
+                                "link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149178",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u6708\u699c",
+                                "link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149179",
+                                "icon": "-1",
+                                "hot": "-1"
+                            }
+                        ],
+                        "more_link_url": ""
+                    },
+                    {
+                        "group_name": "\u5c0f\u8bf4",
+                        "group_link_url": "",
+                        "more": "\u7545\u9500\u699c",
+                        "more_link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149276",
+                        "style_type": "1",
+                        "detail": [
+                            {
+                                "title": "\u60ac\u7591\u63a8\u7406",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.01.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u7a7f\u8d8a\u5c0f\u8bf4",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.02.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u5386\u53f2\u5c0f\u8bf4",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.03.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u90fd\u5e02\u60c5\u611f",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.04.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u6b66\u4fa0\u4ed9\u4fa0",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.05.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u804c\u573a\u5b98\u573a",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.06.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u9752\u6625\u7231\u60c5",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.07.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u79d1\u5e7b\u9b54\u5e7b",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.08.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u4f5c\u54c1\u96c6",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.09.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u60ca\u609a\u6050\u6016",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.01.10.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            }
+                        ]
+                    },
+                    {
+                        "group_name": "\u6587\u5b66",
+                        "group_link_url": "",
+                        "more": "\u7545\u9500\u699c",
+                        "more_link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149277",
+                        "style_type": "1",
+                        "detail": [
+                            {
+                                "title": "\u4f20\u8bb0",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.04.01.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u6587\u5b66\u968f\u7b14",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.04.02.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u540d\u8457",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.04.03.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u8bd7\u6b4c\u6563\u6587",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.04.04.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u7eaa\u5b9e\u6587\u5b66",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.04.05.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            }
+                        ]
+                    },
+                    {
+                        "group_name": "\u4eba\u6587\u793e\u79d1",
+                        "group_link_url": "",
+                        "more": "\u7545\u9500\u699c",
+                        "more_link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149279",
+                        "style_type": "1",
+                        "detail": [
+                            {
+                                "title": "\u6cd5\u5f8b",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.07.01.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u6587\u5316",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.07.02.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u54f2\u5b66\/\u5b97\u6559",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.07.03.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u5fc3\u7406\u5b66",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.07.04.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u793e\u4f1a",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.07.05.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u653f\u6cbb\/\u519b\u4e8b",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.07.06.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u5386\u53f2",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.07.07.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            }
+                        ]
+                    },
+                    {
+                        "group_name": "\u52b1\u5fd7",
+                        "group_link_url": "",
+                        "more": "\u7545\u9500\u699c",
+                        "more_link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149280",
+                        "style_type": "1",
+                        "detail": [
+                            {
+                                "title": "\u6210\u529f\/\u52b1\u5fd7",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.08.01.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u804c\u573a\/\u4eba\u9645\u4ea4\u5f80",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.08.02.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u60c5\u5546\/\u60c5\u7eea\u7ba1\u7406",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.08.03.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u793c\u4eea\u4e0e\u4e2a\u4eba\u4fee\u517b",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.08.04.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u53e3\u624d\/\u6f14\u8bb2\/\u8fa9\u8bba",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.08.05.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            }
+                        ]
+                    },
+                    {
+                        "group_name": "\u7ecf\u7ba1",
+                        "group_link_url": "",
+                        "more": "\u7545\u9500\u699c",
+                        "more_link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149282",
+                        "style_type": "1",
+                        "detail": [
+                            {
+                                "title": "\u7ba1\u7406",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.02.01.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u7ecf\u6d4e",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.02.02.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            }
+                        ]
+                    },
+                    {
+                        "group_name": "\u751f\u6d3b",
+                        "group_link_url": "",
+                        "more": "\u7545\u9500\u699c",
+                        "more_link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149290",
+                        "style_type": "1",
+                        "detail": [
+                            {
+                                "title": "\u4eb2\u5b50\/\u5bb6\u6559",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.06.01.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u65c5\u884c\u968f\u7b14",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.06.02.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u4e24\u6027\u5173\u7cfb",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.06.03.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u5065\u5eb7\u517b\u751f",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.06.04.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            }
+                        ]
+                    },
+                    {
+                        "group_name": "\u7ae5\u4e66",
+                        "group_link_url": "",
+                        "more": "\u7545\u9500\u699c",
+                        "more_link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149284",
+                        "style_type": "1",
+                        "detail": [
+                            {
+                                "title": "0-6\u5c81",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.05.01.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "7-10\u5c81",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.05.02.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "11-14\u5c81",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.05.03.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            }
+                        ]
+                    },
+                    {
+                        "group_name": "\u76f8\u58f0\u8bc4\u4e66",
+                        "group_link_url": "",
+                        "more": "\u7545\u9500\u699c",
+                        "more_link_url": "http:\/\/touch.m.dangdang.com\/topics.php?page_id=149286",
+                        "style_type": "1",
+                        "detail": [
+                            {
+                                "title": "\u8bc4\u4e66",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.03.01.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            },
+                            {
+                                "title": "\u76f8\u58f0",
+                                "link_url": "http:\/\/search.m.dangdang.com\/category.php?cid=98.14.16.03.02.00",
+                                "icon": "-1",
+                                "hot": "-1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

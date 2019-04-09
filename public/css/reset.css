@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6,b,strong{
 i,em{
 	font-style: normal;
 }
-img{border:0;}
+img{border:0; display: block}
 input{
 	outline:none;	
 }
