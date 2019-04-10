@@ -1,1 +1,95 @@
-{"errorCode":"0","errorMsg":"success","outerResults":null,"result":{"tabNameList":["9.9元","29.9元","59.9元","79.9元","99.9元"],"bannerImg":"https://img62.ddimg.cn/upload_img/00788/1/banner-1553071978.png","tabName":"9.9元","tabImg":"https://img58.ddimg.cn/99999990002578238.jpg","tabColor":"#800080","total":52,"pageNum":1,"pageSize":9,"data":[{"productId":1161392959,"imgUrl":"https://img3x9.ddimg.cn/1/33/1161392959-1_b_1.jpg","productName":"张嘴就来:99%的人都不知道的即兴发言技巧聊的来","productSubName":"张嘴就来:99%的人都不知道的即兴发言技巧聊的来","salePrice":"9.90","origPrice":"39.80"},{"productId":1018689716,"imgUrl":"https://img3x6.ddimg.cn/11/18/1018689716-1_b_1.jpg","productName":"正版 人性的弱点 卡耐基著优点励志书籍 人生哲理 厚黑学心灵鸡汤中文励志马云成功学羊皮卷图书经商畅销书籍","productSubName":"正版 人性的弱点 卡耐基著优点励志书籍 人生哲理 厚黑学心灵鸡汤中文励志马云成功学羊皮卷图书经商畅销书籍","salePrice":"9.90","origPrice":"32.00"},{"productId":1350847160,"imgUrl":"https://img3x0.ddimg.cn/80/26/1350847160-1_b_1.jpg","productName":"思维风暴智游戏 专注力训练书 思维训练书籍 智力开发全脑开发 逻辑思维书籍成人学生 脑力开发训练书 畅销书籍","productSubName":"思维风暴智游戏 专注力训练书 思维训练书籍 智力开发全脑开发 逻辑思维书籍成人学生 脑力开发训练书 畅销书籍","salePrice":"9.90","origPrice":"49.00"},{"productId":1182722416,"imgUrl":"https://img3x6.ddimg.cn/7/26/1182722416-1_b_2.jpg","productName":"【百草味-牛轧卷卷150g】休闲零食小吃夹心饼干牛轧糖蛋卷酥","productSubName":"【百草味-牛轧卷卷150g】休闲零食小吃夹心饼干牛轧糖蛋卷酥","salePrice":"9.90","origPrice":"59.90"},{"productId":1071167791,"imgUrl":"https://img3x1.ddimg.cn/67/31/1071167791-1_b_8.jpg","productName":"【百草味-黄金玉米片75gx2】即食小吃杂粮饼零食番茄/海苔味","productSubName":"【百草味-黄金玉米片75gx2】即食小吃杂粮饼零食番茄/海苔味","salePrice":"9.90","origPrice":"299.00"},{"productId":1151581216,"imgUrl":"https://img3x6.ddimg.cn/49/24/1151581216-1_b_1.jpg","productName":"【百草味-香鱼脆脆35g】鱼片干烤鱼片海鲜零食休闲即食小吃","productSubName":"【百草味-香鱼脆脆35g】鱼片干烤鱼片海鲜零食休闲即食小吃","salePrice":"9.90","origPrice":"79.50"},{"productId":1419149089,"imgUrl":"https://img3x9.ddimg.cn/28/29/1419149089-1_b_2.jpg","productName":"正版包邮 狼道强者的成功法则 成功励志人生哲理正能量销售团队狼性管理书籍 职场商场成功法则团队协作意志信念","productSubName":"正版包邮 狼道强者的成功法则 成功励志人生哲理正能量销售团队狼性管理书籍 职场商场成功法则团队协作意志信念","salePrice":"9.90","origPrice":"44.90"},{"productId":1064316079,"imgUrl":"https://img3x9.ddimg.cn/46/16/1064316079-1_b_1.jpg","productName":"【限时秒杀包邮】父与子全集 彩图双语珍藏版 儿童漫画书全集英文版双语读物故事书 亲子读物绘本","productSubName":"【限时秒杀包邮】父与子全集 彩图双语珍藏版 儿童漫画书全集英文版双语读物故事书 亲子读物绘本","salePrice":"9.80","origPrice":"29.80"},{"productId":1061627888,"imgUrl":"https://img3x8.ddimg.cn/2/23/1061627888-1_b_1.jpg","productName":"2018秋七年级上册生物试卷人教版期末复习冲刺卷100分7年级初一辅导资料同步练习题练习册单元复习模拟考试卷初中生新版","productSubName":"2018秋七年级上册生物试卷人教版期末复习冲刺卷100分7年级初一辅导资料同步练习题练习册单元复习模拟考试卷初中生新版","salePrice":"7.90","origPrice":"22.80"}]}}
+{
+    "errorCode": "0",
+    "errorMsg": "success",
+    "outerResults": null,
+    "result": {
+        "tabNameList": [
+            "9.9元",
+            "29.9元",
+            "59.9元",
+            "79.9元",
+            "99.9元"
+        ],
+        "bannerImg": "https://img62.ddimg.cn/upload_img/00788/1/banner-1553071978.png",
+        "tabName": "9.9元",
+        "tabImg": "https://img58.ddimg.cn/99999990002578238.jpg",
+        "tabColor": "#800080",
+        "total": 52,
+        "pageNum": 1,
+        "pageSize": 9,
+        "data": [
+            {
+                "productId": 1161392959,
+                "imgUrl": "https://img3x9.ddimg.cn/1/33/1161392959-1_b_1.jpg",
+                "productName": "张嘴就来:99%的人都不知道的即兴发言技巧聊的来",
+                "productSubName": "张嘴就来:99%的人都不知道的即兴发言技巧聊的来",
+                "salePrice": "9.90",
+                "origPrice": "39.80"
+            },
+            {
+                "productId": 1018689716,
+                "imgUrl": "https://img3x6.ddimg.cn/11/18/1018689716-1_b_1.jpg",
+                "productName": "正版 人性的弱点 卡耐基著优点励志书籍 人生哲理 厚黑学心灵鸡汤中文励志马云成功学羊皮卷图书经商畅销书籍",
+                "productSubName": "正版 人性的弱点 卡耐基著优点励志书籍 人生哲理 厚黑学心灵鸡汤中文励志马云成功学羊皮卷图书经商畅销书籍",
+                "salePrice": "9.90",
+                "origPrice": "32.00"
+            },
+            {
+                "productId": 1350847160,
+                "imgUrl": "https://img3x0.ddimg.cn/80/26/1350847160-1_b_1.jpg",
+                "productName": "思维风暴智游戏 专注力训练书 思维训练书籍 智力开发全脑开发 逻辑思维书籍成人学生 脑力开发训练书 畅销书籍",
+                "productSubName": "思维风暴智游戏 专注力训练书 思维训练书籍 智力开发全脑开发 逻辑思维书籍成人学生 脑力开发训练书 畅销书籍",
+                "salePrice": "9.90",
+                "origPrice": "49.00"
+            },
+            {
+                "productId": 1182722416,
+                "imgUrl": "https://img3x6.ddimg.cn/7/26/1182722416-1_b_2.jpg",
+                "productName": "【百草味-牛轧卷卷150g】休闲零食小吃夹心饼干牛轧糖蛋卷酥",
+                "productSubName": "【百草味-牛轧卷卷150g】休闲零食小吃夹心饼干牛轧糖蛋卷酥",
+                "salePrice": "9.90",
+                "origPrice": "59.90"
+            },
+            {
+                "productId": 1071167791,
+                "imgUrl": "https://img3x1.ddimg.cn/67/31/1071167791-1_b_8.jpg",
+                "productName": "【百草味-黄金玉米片75gx2】即食小吃杂粮饼零食番茄/海苔味",
+                "productSubName": "【百草味-黄金玉米片75gx2】即食小吃杂粮饼零食番茄/海苔味",
+                "salePrice": "9.90",
+                "origPrice": "299.00"
+            },
+            {
+                "productId": 1151581216,
+                "imgUrl": "https://img3x6.ddimg.cn/49/24/1151581216-1_b_1.jpg",
+                "productName": "【百草味-香鱼脆脆35g】鱼片干烤鱼片海鲜零食休闲即食小吃",
+                "productSubName": "【百草味-香鱼脆脆35g】鱼片干烤鱼片海鲜零食休闲即食小吃",
+                "salePrice": "9.90",
+                "origPrice": "79.50"
+            },
+            {
+                "productId": 1419149089,
+                "imgUrl": "https://img3x9.ddimg.cn/28/29/1419149089-1_b_2.jpg",
+                "productName": "正版包邮 狼道强者的成功法则 成功励志人生哲理正能量销售团队狼性管理书籍 职场商场成功法则团队协作意志信念",
+                "productSubName": "正版包邮 狼道强者的成功法则 成功励志人生哲理正能量销售团队狼性管理书籍 职场商场成功法则团队协作意志信念",
+                "salePrice": "9.90",
+                "origPrice": "44.90"
+            },
+            {
+                "productId": 1064316079,
+                "imgUrl": "https://img3x9.ddimg.cn/46/16/1064316079-1_b_1.jpg",
+                "productName": "【限时秒杀包邮】父与子全集 彩图双语珍藏版 儿童漫画书全集英文版双语读物故事书 亲子读物绘本",
+                "productSubName": "【限时秒杀包邮】父与子全集 彩图双语珍藏版 儿童漫画书全集英文版双语读物故事书 亲子读物绘本",
+                "salePrice": "9.80",
+                "origPrice": "29.80"
+            },
+            {
+                "productId": 1061627888,
+                "imgUrl": "https://img3x8.ddimg.cn/2/23/1061627888-1_b_1.jpg",
+                "productName": "2018秋七年级上册生物试卷人教版期末复习冲刺卷100分7年级初一辅导资料同步练习题练习册单元复习模拟考试卷初中生新版",
+                "productSubName": "2018秋七年级上册生物试卷人教版期末复习冲刺卷100分7年级初一辅导资料同步练习题练习册单元复习模拟考试卷初中生新版",
+                "salePrice": "7.90",
+                "origPrice": "22.80"
+            }
+        ]
+    }
+}

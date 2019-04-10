@@ -6,6 +6,7 @@
     </keep-alive>
     <!-- tabs切换 -->
     <app-tabs></app-tabs>
+    
   </div>
 </template>
 

@@ -1,1 +1,58 @@
-{"errorCode":"0","errorMsg":"success","outerResults":null,"result":{"bannerData":[{"bannerImageUrl":"http://img61.ddimg.cn/upload_img/00707/mobile/banner1030-1534390764.png","bannerLinkUrl":"http://z.dangdang.com/optimize/sign_in"}],"guanData":[{"iconName":"图书馆","iconImageUrl":"https://img61.ddimg.cn/2018/8/25/20180825153505715.png","iconLinkUrl":"http://touch.m.dangdang.com/topics.php?page_id=131706"},{"iconName":"服装馆","iconImageUrl":"https://img61.ddimg.cn/2018/8/25/2018082515383576435.png","iconLinkUrl":"http://touch.m.dangdang.com/topics.php?page_id=162371"},{"iconName":"童书馆","iconImageUrl":"https://img61.ddimg.cn/2018/8/25/2018082515395286917.png","iconLinkUrl":"http://touch.m.dangdang.com/topics.php?page_id=126310"},{"iconName":"日百馆","iconImageUrl":"https://img63.ddimg.cn/2018/8/31/2018083116044590576.png","iconLinkUrl":"http://touch.m.dangdang.com/topics.php?page_id=167159"}],"iconData":[{"iconName":"便宜好货","iconImageUrl":"https://img62.ddimg.cn/2018/8/31/2018083116363087335.png","iconLinkUrl":"http://z.dangdang.com/optimize/low_price"},{"iconName":"9.9包邮","iconImageUrl":"https://img62.ddimg.cn/2018/8/31/2018083116355544875.png","iconLinkUrl":"http://z.dangdang.com/optimize/npn"},{"iconName":"今日促销","iconImageUrl":"https://img61.ddimg.cn/2018/8/31/2018083116365438226.png","iconLinkUrl":"http://z.dangdang.com/optimize/today_promote"},{"iconName":"即刻秒杀","iconImageUrl":"https://img62.ddimg.cn/2018/8/31/2018083116373380162.png","iconLinkUrl":"http://touch.m.dangdang.com/seckill.php"}],"shopData":null}}
+{
+    "errorCode": "0",
+    "errorMsg": "success",
+    "outerResults": null,
+    "result": {
+        "bannerData": [
+            {
+                "bannerImageUrl": "http://img61.ddimg.cn/upload_img/00707/mobile/banner1030-1534390764.png",
+                "bannerLinkUrl": "http://z.dangdang.com/optimize/sign_in"
+            }
+        ],
+        "guanData": [
+            {
+                "iconName": "图书馆",
+                "iconImageUrl": "https://img61.ddimg.cn/2018/8/25/20180825153505715.png",
+                "iconLinkUrl": "http://touch.m.dangdang.com/topics.php?page_id=131706"
+            },
+            {
+                "iconName": "服装馆",
+                "iconImageUrl": "https://img61.ddimg.cn/2018/8/25/2018082515383576435.png",
+                "iconLinkUrl": "http://touch.m.dangdang.com/topics.php?page_id=162371"
+            },
+            {
+                "iconName": "童书馆",
+                "iconImageUrl": "https://img61.ddimg.cn/2018/8/25/2018082515395286917.png",
+                "iconLinkUrl": "http://touch.m.dangdang.com/topics.php?page_id=126310"
+            },
+            {
+                "iconName": "日百馆",
+                "iconImageUrl": "https://img63.ddimg.cn/2018/8/31/2018083116044590576.png",
+                "iconLinkUrl": "http://touch.m.dangdang.com/topics.php?page_id=167159"
+            }
+        ],
+        "iconData": [
+            {
+                "iconName": "便宜好货",
+                "iconImageUrl": "https://img62.ddimg.cn/2018/8/31/2018083116363087335.png",
+                "iconLinkUrl": "http://z.dangdang.com/optimize/low_price"
+            },
+            {
+                "iconName": "9.9包邮",
+                "iconImageUrl": "https://img62.ddimg.cn/2018/8/31/2018083116355544875.png",
+                "iconLinkUrl": "http://z.dangdang.com/optimize/npn"
+            },
+            {
+                "iconName": "今日促销",
+                "iconImageUrl": "https://img61.ddimg.cn/2018/8/31/2018083116365438226.png",
+                "iconLinkUrl": "http://z.dangdang.com/optimize/today_promote"
+            },
+            {
+                "iconName": "即刻秒杀",
+                "iconImageUrl": "https://img62.ddimg.cn/2018/8/31/2018083116373380162.png",
+                "iconLinkUrl": "http://touch.m.dangdang.com/seckill.php"
+            }
+        ],
+        "shopData": null
+    }
+}

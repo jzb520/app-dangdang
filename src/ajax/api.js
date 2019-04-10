@@ -1,7 +1,7 @@
 //开发环境
 const DEV_HOST = 'http://localhost:8080';
 
-
+const CATE_LIST = 'ddcategory.php?'
 
 // 微博登录 参数code , 微博登录入口
 const USER_LOGIN_API = '/api/user/login_by_weibo_code';
@@ -16,5 +16,6 @@ export default {
     HOST: DEV_HOST,
     SINA_LOGIN_URL,
     USER_LOGIN_API,
-    USER_CHECK_LOGIN_API
+    USER_CHECK_LOGIN_API,
+    CATE_LIST
 }
