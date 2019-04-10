@@ -9,7 +9,7 @@ html, body, #app{
     left: 0;
     bottom: 0px;
     overflow: hidden;
-    background: #cccccc;;
+    background: #cccccc;
 }
 .slideInDown, .slideOutUp, .fadeIn, .fadeOut, .slideInRight, .slideOutRight, .slideInUp, .slideOutDown{
     animation-duration: 300ms;
