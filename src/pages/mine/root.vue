@@ -1,6 +1,6 @@
 <template>
     <div class="mine page">
-        <h1>我的</h1>
+       <app-header title='我的当当'></app-header>
     </div>
 </template>
 
