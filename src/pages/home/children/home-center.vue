@@ -1,80 +1,92 @@
 <template>
-  <div class="home-center">
-    <app-scroll class="scroll">
-      <home-swiper class="swiper"/>
-      <div class="bigimg">
-        <img
-          src="http://img63.ddimg.cn/upload_img/00702/B/1242x524_02-1554192101.jpg"
-          width="100%"
-          alt
-        >
-      </div>
-      <!-- menu菜单 -->
-      <ul class="hoem-menu">
-        <li v-for="item in menuList" :key="item.name">
-          <img :src="item.picUrl" width="100%" alt>
-        </li>
-      </ul>
-      <div class="home-tiao"></div>
-      <!-- 品牌街 -->
-      <div class="home-pin">
-        <img
-          src="http://img61.ddimg.cn/upload_img/00528/000000/biaoti-101-1523330132.jpg"
-          width="100%"
-          alt
-        >
-      </div>
-      <van-swipe :autoplay="3000">
-        <van-swipe-item>
-          <ul class="home-gai">
-            <li v-for="(i,index) in pinList" :key="i.index">
-              <img :src="i.picurl" width="100%" alt>
-            </li>
-          </ul>
-        </van-swipe-item>
-        <van-swipe-item>
-          <ul class="home-gai">
-            <li v-for="(i,index) in pinList" :key="i.index">
-              <img :src="i.picurl" width="100%" alt>
-            </li>
-          </ul>
-        </van-swipe-item>
-        <van-swipe-item>
-          <ul class="home-gai">
-            <li v-for="(i,index) in pinList" :key="i.index">
-              <img :src="i.picurl" width="100%" alt>
-            </li>
-          </ul>
-        </van-swipe-item>
-      </van-swipe>
-      <!-- 推荐列表 -->
-      <ul class="homelist">
-        <li v-for="(item,index) in homelist" :key="index">
-          <img :src="item.image_url" width="100%" alt>
-          <p>
-            <span class="namespan">{{item.name}}</span>
-          </p>
-          <p>
-            <span v-for="(value,index) in item.productTags" :key="index">
-              <span>{{value.name}}</span>
-            </span>
-          </p>
-          <p>￥{{item.price}}</p>
-        </li>
-      </ul>
-    </app-scroll>
+  <div class="home-center" ref="top">
+    <!-- <app-scroll class="scroll" ref="top"> -->
+    <home-swiper class="swiper"/>
+    <div class="bigimg">
+      <img
+        src="http://img63.ddimg.cn/upload_img/00702/B/1242x524_02-1554192101.jpg"
+        width="100%"
+        alt
+      >
+    </div>
+    <!-- menu菜单 -->
+    <ul class="hoem-menu">
+      <li v-for="item in menuList" :key="item.name">
+        <img :src="item.picUrl" width="100%" alt>
+      </li>
+    </ul>
+    <div class="home-tiao"></div>
+    <!-- 品牌街 -->
+    <div class="home-pin">
+      <img
+        src="http://img61.ddimg.cn/upload_img/00528/000000/biaoti-101-1523330132.jpg"
+        width="100%"
+        alt
+      >
+    </div>
+    <van-swipe :autoplay="3000">
+      <van-swipe-item>
+        <ul class="home-gai">
+          <li v-for="(i,index) in pinList" :key="i.index">
+            <img :src="i.picurl" width="100%" alt>
+          </li>
+        </ul>
+      </van-swipe-item>
+      <van-swipe-item>
+        <ul class="home-gai">
+          <li v-for="(i,index) in pinList" :key="i.index">
+            <img :src="i.picurl" width="100%" alt>
+          </li>
+        </ul>
+      </van-swipe-item>
+      <van-swipe-item>
+        <ul class="home-gai">
+          <li v-for="(i,index) in pinList" :key="i.index">
+            <img :src="i.picurl" width="100%" alt>
+          </li>
+        </ul>
+      </van-swipe-item>
+    </van-swipe>
+    <!-- 推荐列表 -->
+    <ul class="homelist">
+      <li v-for="(item,index) in homelist" :key="index">
+        <img :src="item.image_url" width="100%" alt>
+        <p>
+          <span class="namespan">{{item.name}}</span>
+        </p>
+        <p>
+          <span v-for="(value,index) in item.productTags" :key="index">
+            <span>{{value.name}}</span>
+          </span>
+        </p>
+        <p>￥{{item.price}}</p>
+      </li>
+    </ul>
+    <back-to-top bottom="50px" right="50px">
+      <button type="button" class="btn btn-info btn-to-top">
+      <img src="http://touch.m.dangdang.com/images/go-top.png" width="100%" alt>
+      </button>
+    </back-to-top>
+    <!-- </app-scroll> -->
+      <!-- 回到顶部  -->
+    <goTop></goTop> 
   </div>
 </template>
 
 <script>
 import Swiper from "./home-swiper";
 import BScroll from "../../../components/Iscroll";
+import GoTop from "../../../components/GoTop";
+import BackToTop from "vue-backtotop";
+
 import { mapState } from "vuex";
 export default {
   name: "home-center",
   components: {
     [Swiper.name]: Swiper,
-    [BScroll.name]: BScroll
+    [BScroll.name]: BScroll,
+    [GoTop.name]: GoTop,
+    [BackToTop.name]:BackToTop
   },
   computed: {
     ...mapState({
@@ -149,7 +161,12 @@ export default {
       ]
     };
   },
-  mounted() {},
+  mounted() {
+  },
+  methods: {
+  
+    },
+  
   created() {
     //请求数据
     this.$store.dispatch("home/gethomeListAction");
@@ -163,6 +180,7 @@ export default {
   top: 44px;
   bottom: 49px;
   width: 100%;
+  overflow-y: auto;
   .scroll {
     width: 100%;
     position: absolute;
@@ -206,7 +224,7 @@ export default {
     li {
       flex: 1 1 50%;
       background: #ffffff;
-      border: 2px solid  #ececec;
+      border: 2px solid #ececec;
       padding: 5px;
       box-sizing: border-box;
       .namespan {
@@ -222,6 +240,14 @@ export default {
       }
     }
   }
+  .btn-to-top {
+  width: 40px;
+  height: 40px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 22px;
+}
 }
 </style>
 
