@@ -39,5 +39,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+.page{
+    background: #eff4fa;
+}
 </style>
+

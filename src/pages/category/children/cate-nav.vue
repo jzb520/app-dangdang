@@ -2,9 +2,10 @@
   <div class="cate-nav">
     <app-scroll class="scroll">
       <ul class="nav-List">
-        <li v-for="(item,index) in data" :key="item.id"
-        @click="getindex(index)"
-        >{{item.title}}</li>
+        <li v-for="(item,index) in data" :key="item.id" 
+        @click="getindex(index)" :class="{active:value === index}">
+        {{item.title}}
+        </li>
       </ul>
     </app-scroll>
   </div>
@@ -18,12 +19,14 @@ export default {
     [BScroll.name]: BScroll
   },
   props: {
-    data: Array
+    data: Array,
+    value:Number
+
   },
   methods: {
-      getindex(index){
-          this.$emit('input',index)
-      }
+    getindex(index) {
+      this.$emit("input", index);
+    }
   }
 };
 </script>
@@ -35,7 +38,7 @@ export default {
   bottom: 49px;
   left: 0px;
   background: #ffffff;
-  border-right: 8px solid #ececec;
+  border-right: 8px solid #eff4fa;
   box-sizing: border-box;
   .scroll {
     width: 100%;
@@ -44,9 +47,16 @@ export default {
     left: 0;
     bottom: 0px;
   }
-  .nav-List{
-     line-height: 40px;
-     text-align: center;
+  .nav-List {
+    line-height: 40px;
+    text-align: center;
+    li {
+      font-size: 14px;
+    }
   }
+}
+.active{
+   background-color: #eff4fa;
+   color: #e53e30;
 }
 </style>
