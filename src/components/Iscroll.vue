@@ -13,6 +13,8 @@ export default {
     mounted(){
         let scroll = new Bscroll(this.$refs.scroll,{
             click:true,
+            // scrollX:true,
+           
         });
         scroll.on('scrollStart',()=>{
             scroll.refresh();
