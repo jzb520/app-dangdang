@@ -1,46 +1,51 @@
 <template>
   <div class="purchase page">
-    <!-- <app-scroll style="width:100%;height:100%"> -->
-      <app-header></app-header>
-      <div class="content">
-        <div class="menu">
-          <ul>
-            <li v-for="item in ImgList" :key="item.id">
-              <img :src="item.picUrl" alt>
-            </li>
-          </ul>
-          <ul>
-            <li v-for="item in ItemList" :key="item.id">
-              <img :src="item.picUrl" alt>
-            </li>
-          </ul>
-        </div>
-        <div class="promotion">
-          <h1>促销专场</h1>
-          <a href>更多 ></a>
-          <div class="promotion-content">
-            <ul class="itemlist">
-              <li v-for="item in promotionList" :key="item.id" class="item">
-                <a href>
-                  <h1>{{item.top}}</h1>
-                  <h2>{{item.title}}</h2>
-                  <img :src="item.picUrl" alt>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <activity ></activity>
+    <app-header></app-header>
+    <div class="content">
+      <div class="menu">
+        <ul>
+          <li v-for="item in ImgList" :key="item.id">
+            <img :src="item.picUrl" alt>
+          </li>
+        </ul>
+        <ul>
+          <li v-for="item in ItemList" :key="item.id">
+            <img :src="item.picUrl" alt>
+          </li>
+        </ul>
       </div>
-    <!-- </app-scroll> -->
+      <div class="promotion">
+        <h1>促销专场</h1>
+        <a href>更多 ></a>
+        <div class="promotion-content">
+          <ul class="itemlist">
+            <li v-for="item in promotionList" :key="item.id" class="item">
+              <a href>
+                <h1>{{item.top}}</h1>
+                <h2>{{item.title}}</h2>
+                <img :src="item.picUrl" alt>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <activity></activity>
+      <toom></toom>
+    </div>
+    
+  
+
+    
   </div>
 </template>
 
 <script>
-import Activity from './children/activity'
+import Activity from "./children/activity";
+import Footer from "./children/footer";
 export default {
-  components:{
-     [Activity.name]: Activity,
+  components: {
+    [Activity.name]: Activity,
+    [Footer.name]:Footer
   },
   data() {
     return {
@@ -126,13 +131,15 @@ export default {
       ]
     };
   }
-  
 };
 </script>
 
 <style lang="scss" scoped>
 .purchase {
-  overflow: scroll;
+  overflow-y: scroll;
+  position: absolute;
+  bottom: 49px;
+  left: 0;
   .content {
     position: absolute;
     top: 44px;
@@ -157,8 +164,8 @@ export default {
       width: 100%;
       height: 340px;
       background: url(http://z.dangdang.com/static/img/%E4%B9%9D%E5%AE%AB%E6%A0%BC.5e5e35d.png)
-        no-repeat ;
-   
+        no-repeat;
+
       background-size: cover;
       position: relative;
       padding: 10px;
@@ -199,15 +206,15 @@ export default {
             overflow: hidden;
             padding: 10px;
             a {
-              position:absolute;
-              top:0px;
+              position: absolute;
+              top: 0px;
               left: 0px;
               display: block;
               margin: 5px auto;
               h1 {
                 font-size: 14px;
                 color: #333;
-                 }
+              }
               h2 {
                 font-size: 14px;
                 color: #943dff;
@@ -223,6 +230,7 @@ export default {
       }
     }
   }
+
 }
 </style>
 
