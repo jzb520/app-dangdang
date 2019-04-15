@@ -1,20 +1,18 @@
 <template>
     <div class="scroll-warp" ref='scroll'>
-        <div class="scroll">
             <slot/>
-        </div>
     </div>
 </template>
 
 <script>
 import Bscroll from 'better-scroll';
 export default {
-    name: 'app-scroll',
+    name: 'scroll',
     mounted(){
         let scroll = new Bscroll(this.$refs.scroll,{
             click:true,
-            // scrollX:true,
-           
+            scrollX:true,
+            scrollY:false,
         });
         scroll.on('scrollStart',()=>{
             scroll.refresh();
@@ -23,7 +21,7 @@ export default {
 }
 </script>
 
-<style scoped>
+ <style lang="scss" scoped>
 .scroll-warp{
   overflow: hidden;
 }

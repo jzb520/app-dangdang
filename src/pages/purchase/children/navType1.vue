@@ -27,9 +27,9 @@ export default {
 <style lang="scss" scoped>
 .navType1 {
   position: relative;
-  background:#eee;
+  background:#f5f5f5;
   .item{
-    margin-top:8px;
+    margin-top:5px;
     padding: 8px 0;
     background: #fff;
   }

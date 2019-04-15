@@ -61,7 +61,7 @@ export default {
   .biaoti {
        padding: 10px;
   box-sizing: border-box;
-    border-top: 8px solid #ececec;
+    border-top: 8px solid#eff4fa;
   }
   .cate-goodList {
     display: flex;

@@ -2,7 +2,6 @@
   <div class="activity">
     <div v-for="(item, index) in bannerlist" :key="item.id">
       <component :is="`navType${item.navType}`" :data="item.list" :index="index"/>
-      
     </div>
   </div>
 </template>
@@ -38,8 +37,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .activity{
- 
-// }
+.activity{
+  width: 100%;
+}
 </style>
 
