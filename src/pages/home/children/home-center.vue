@@ -12,7 +12,9 @@
     <!-- menu菜单 -->
     <ul class="hoem-menu">
       <li v-for="item in menuList" :key="item.name">
-        <img :src="item.picUrl" width="100%" alt>
+        <router-link to="/home/cate">
+          <img :src="item.picUrl" width="100%" alt>
+        </router-link>
       </li>
     </ul>
     <div class="home-tiao"></div>
@@ -64,12 +66,15 @@
     </ul>
     <back-to-top bottom="50px" right="50px">
       <button type="button" class="btn btn-info btn-to-top">
-      <img src="http://touch.m.dangdang.com/images/go-top.png" width="100%" alt>
+        <img src="http://touch.m.dangdang.com/images/go-top.png" width="100%" alt>
       </button>
     </back-to-top>
     <!-- </app-scroll> -->
-      <!-- 回到顶部  -->
-    <goTop></goTop> 
+    <!-- 回到顶部  -->
+    <!-- <goTop  :tops='scrollTop'></goTop> -->
+    <div id="goTop" @click="backTop" v-show="toTop">
+      <img src="http://touch.m.dangdang.com/images/go-top.png" width="100%" alt>
+    </div>
   </div>
 </template>
 
@@ -86,7 +91,7 @@ export default {
     [Swiper.name]: Swiper,
     [BScroll.name]: BScroll,
     [GoTop.name]: GoTop,
-    [BackToTop.name]:BackToTop
+    [BackToTop.name]: BackToTop
   },
   computed: {
     ...mapState({
@@ -95,6 +100,7 @@ export default {
   },
   data() {
     return {
+      toTop: true,
       menuList: [
         {
           name: "畅销榜",
@@ -161,12 +167,30 @@ export default {
       ]
     };
   },
-  mounted() {
-  },
   methods: {
-  
-    },
-  
+    backTop() {
+      console.log(this.$refs.top);
+
+      let scrollTops = (this.$refs.top.scrollTop = 0);
+      console.log(scrollTops);
+    }
+  },
+  mounted() {
+    let _this = this;
+    window.addEventListener("scroll", function() {
+      let top =
+        this.$refs.top.scrollTop ||
+        document.documentElement.scrollTop ||
+        document.body.scrollTop ||
+        window.pageYOffset; //要做兼容 在模拟器能正常获取scrolltop在微信h5页面和手机的浏览器页面一直为0
+      console.log(top);
+      if (top == 0 || top < 0) {
+        _this.scrollTag = false;
+      } else {
+        _this.scrollTag = true;
+      }
+    });
+  },
   created() {
     //请求数据
     this.$store.dispatch("home/gethomeListAction");
@@ -241,13 +265,34 @@ export default {
     }
   }
   .btn-to-top {
+    width: 40px;
+    height: 40px;
+    padding: 10px 16px;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+.but {
+  position: fixed;
+  bottom: 60px;
+  left: 40px;
+}
+#goTop {
+  position: fixed;
+  right: 40px;
+  bottom: 60px;
   width: 40px;
   height: 40px;
-  padding: 10px 16px;
-  border-radius: 50%;
-  font-size: 22px;
-  line-height: 22px;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
 }
+#goTop:hover .goTopIcon {
+  color: rgba(51, 153, 255, 1);
+}
+.goTopIcon {
+  font-size: 20px;
+  color: rgba(51, 153, 255, 0.8);
 }
 </style>
 

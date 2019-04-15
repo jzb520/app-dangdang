@@ -2,7 +2,7 @@
   <div class="home page">
     <app-header></app-header>
     <home-center/>
-    
+    <router-view></router-view>
   </div>
 </template>
 
@@ -15,7 +15,8 @@ export default {
     [Header.name]: Header,
     [Center.name]: Center,
     [GoTop.name]: GoTop
-  }
+  },
+  
 };
 </script>
 
