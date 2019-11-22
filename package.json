@@ -10,7 +10,7 @@
     "axios": "^0.18.0",
     "better-scroll": "^1.15.1",
     "core-js": "^2.6.5",
-    "vant": "^1.6.13",
+    "vant": "^2.1.8",
     "vant-weapp": "^0.5.9",
     "vue": "^2.6.6",
     "vue-backtotop": "^1.6.1",
